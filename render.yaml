@@ -1,7 +1,7 @@
 services:
   - type: web
     name: fake-news-detector
-    env: docker
+    runtime: docker
     repo: https://github.com/Khushisurti/fake-news-api
     branch: main
     plan: free
