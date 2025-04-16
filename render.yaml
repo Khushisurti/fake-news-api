@@ -1,10 +1,7 @@
 services:
-  - type: web
-    name: fake-news-detector
-    runtime: docker
-    repo: https://github.com/Khushisurti/fake-news-api
-    branch: main
-    plan: free
-    region: oregon
-    autoDeploy: true
-    healthCheckPath: /
+- type: web
+  name: fake-news-detector
+  runtime: docker
+  repo: https://github.com/Khushisurti/fake-news-api
+  branch: main
+  plan: free
